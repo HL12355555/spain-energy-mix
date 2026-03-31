@@ -569,7 +569,7 @@ def main():
                    .background_gradient(subset=["Curtailment (TWh)"], cmap="OrRd",   vmin=0,  vmax=10)
                    .background_gradient(subset=["Heures VRE > 70%"],  cmap="YlOrRd", vmin=0,  vmax=6000),
             use_container_width=True,
-            hide_index=True,
+            
         )
 
         # ── Graphiques évolution ─────────────────────────────────────────
