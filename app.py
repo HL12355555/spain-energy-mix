@@ -412,7 +412,7 @@ def main():
             )
             fig_s1.update_traces(texttemplate="%{y:.1f}%", textposition="outside")
             fig_s1.update_layout(showlegend=False, height=300, yaxis=dict(range=[0,100]),
-                                  plot_bgcolor="white", yaxis_kw=dict(gridcolor="#eee"))
+                                  plot_bgcolor="white", )
             st.plotly_chart(fig_s1, use_container_width=True)
 
         with c_b:
